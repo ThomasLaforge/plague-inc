@@ -13,6 +13,7 @@ export class Dice {
 
     roll(){
         this.currentFace = getRandomIntInclusive(0, this.nbFace - 1)
+        return this.value
     }
 
     get value(){

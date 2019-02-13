@@ -4,6 +4,15 @@ export enum PlayerBoardType {
     Bacteria,
     Virus
 }
+
+export enum GamePhase {
+    DNA,
+    Country,
+    Evolution,
+    Infection,
+    Death
+}
+
 export enum ContinentName {
     NorthAmerica = 'nort_america',
     SouthAmerica = 'south_america',

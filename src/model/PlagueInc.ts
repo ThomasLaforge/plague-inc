@@ -1,5 +1,9 @@
 import { Continent } from "./Continent";
 
+export enum PlayerBoardType {
+    Bacteria,
+    Virus
+}
 export enum ContinentName {
     NorthAmerica = 'nort_america',
     SouthAmerica = 'south_america',
@@ -25,4 +29,9 @@ export enum TraitType {
     Waterbone = 3,
     Infectivity = 4,
     Lethality = 5
+}
+
+export enum InitialCardPower {
+    GetOneMoreDNA,
+    SkipInfectionButFreeMove
 }

@@ -1,0 +1,161 @@
+[
+    {
+        "name": "hypothermia",
+        "traits": [1, 5],
+        "cost": 12
+    },
+    {
+        "name": "tumours",
+        "traits": [5, 5],
+        "cost": 13
+    },
+    {
+        "name": "delirium",
+        "traits": [3, 0],
+        "cost": 12
+    },
+    {
+        "name": "confusion",
+        "traits": [2, 1],
+        "cost": 11
+    },
+    {
+        "name": "coma",
+        "traits": [5, 5],
+        "cost": 13
+    },
+    {
+        "name": "total organ failure",
+        "traits": [5, 5, 5],
+        "cost": 21
+    },
+    {
+        "name": "dysentry",
+        "traits": [0, 5],
+        "cost": 13
+    },
+    {
+        "name": "pustules",
+        "traits": [2, 0],
+        "cost": 12
+    },
+    {
+        "name": "buboes",
+        "traits": [3, 1],
+        "cost": 11
+    },
+    {
+        "name": "paranoia",
+        "traits": [4, 4],
+        "cost": 12
+    },
+    {
+        "name": "skin lesions",
+        "traits": [4, 4],
+        "cost": 12
+    },
+    {
+        "name": "meningitis",
+        "traits": [4, 5],
+        "cost": 11
+    },
+    {
+        "name": "sneezing",
+        "traits": [2, 4],
+        "cost": 10
+    },
+    {
+        "name": "insanity",
+        "traits": [4, 4, 5],
+        "cost": 19
+    },
+    {
+        "name": "pneumonia",
+        "traits": [1, 4],
+        "cost": 12
+    },
+    {
+        "name": "systemic infection",
+        "traits": [4, 5],
+        "cost": 11
+    },
+    {
+        "name": "internal haemorrhaging",
+        "traits": [4, 5],
+        "cost": 11
+    },
+    {
+        "name": "haemorrhaging shock",
+        "traits": [4, 5, 5],
+        "cost": 20
+    },
+    {
+        "name": "necrosis",
+        "traits": [4, 5, 5],
+        "cost": 20
+    },
+    {
+        "name": "vomiting",
+        "traits": [3, 4],
+        "cost": 10
+    },
+    {
+        "name": "diarrhoea",
+        "traits": [0, 4],
+        "cost": 13
+    },
+    {
+        "name": "heat resistance",
+        "traits": [0],
+        "cost": 5,
+        "nb": 6
+    },
+    {
+        "name": "col resistance",
+        "traits": [1],
+        "cost": 4,
+        "nb": 6
+    },
+    {
+        "name": "air transmission",
+        "traits": [2],
+        "cost": 2,
+        "nb": 6
+    },
+    {
+        "name": "water transmission",
+        "traits": [3],
+        "cost": 2,
+        "nb": 6
+    },
+    {
+        "name": [
+            "respiratory failure",
+            "paralysis",
+            "seizures",
+            "fever",
+            "cannibalism",
+            "psychosis",
+            "gastro ulgeration",
+            "abcesses",
+            "blindness"
+        ],
+        "traits": [5],
+        "cost": 2
+    },
+    {
+        "name": [
+            "coughing",
+            "rash",
+            "sweating",
+            "cysts",
+            "hallucinations",
+            "insomnia",
+            "headache",
+            "nose bleed",
+            "sore throat"
+        ],
+        "traits": [4],
+        "cost": 2
+    }
+]

@@ -1,0 +1,292 @@
+[
+    {
+        "continentName": "europe",
+        "countries": [
+            {
+                "name": "italy",
+                "nbSlots": 4,
+                "hasAirport": true,
+                "isStartCountry": true
+            },
+            {
+                "name": "poland",
+                "nbSlots": 4
+            },
+            {
+                "name": "uk",
+                "nbSlots": 4,
+                "hasAirport": true,
+                "hasPort": true
+            },
+            {
+                "name": "island",
+                "nbSlots": 2,
+                "hasPort": true,
+                "hasColdResistance": true
+            },
+            {
+                "name": "norway",
+                "nbSlots": 3,
+                "hasPort": true,
+                "hasColdResistance": true
+            },
+            {
+                "name": "ukraine",
+                "nbSlots": 4,
+                "hasColdResistance": true
+            },
+            {
+                "name": "turkey",
+                "nbSlots": 5,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "spain",
+                "nbSlots": 4,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "germany",
+                "nbSlots": 5,
+                "hasAirport": true,
+                "hasPort": true
+            },
+            {
+                "name": "sweden",
+                "nbSlots": 3,
+                "hasColdResistance": true
+            },
+            {
+                "name": "france",
+                "nbSlots": 5,
+                "hasAirport": true,
+                "isStartCountry": true
+            }
+        ]
+    },
+    {
+        "continentName": "asia",
+        "countries": [
+            {
+                "name": "south korea",
+                "nbSlots": 5,
+                "hasPort": true,
+                "isStartCountry": true
+            },
+            {
+                "name": "russia",
+                "nbSlots": 6,
+                "hasAirport": true,
+                "hasColdResistance": true
+            },
+            {
+                "name": "saudi arabia",
+                "nbSlots": 4,
+                "hasAirport": true,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "iraq",
+                "nbSlots": 4,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "pakistan",
+                "nbSlots": 6
+            },
+            {
+                "name": "kazakhstan",
+                "nbSlots": 3,
+                "hasColdResistance": true
+            },
+            {
+                "name": "mongolia",
+                "nbSlots": 3
+            },
+            {
+                "name": "iran",
+                "nbSlots": 4
+            },
+            {
+                "name": "india",
+                "nbSlots": 8,
+                "hasPort": true,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "japan",
+                "nbSlots": 6,
+                "hasAirport": true,
+                "hasPort": true,
+                "isStartCountry": true
+            },
+            {
+                "name": "china",
+                "nbSlots": 8,
+                "hasAirport": true,
+                "hasPort": true
+            }
+        ]
+    },
+    {
+        "continentName": "africa",
+        "countries": [
+            {
+                "name": "ethiopia",
+                "nbSlots": 6
+            },
+            {
+                "name": "sudan",
+                "nbSlots": 4,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "egypt",
+                "nbSlots": 5,
+                "hasPort": true,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "madagascar",
+                "nbSlots": 3,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "morocco",
+                "nbSlots": 3,
+                "hasPort": true
+            },
+            {
+                "name": "libya",
+                "nbSlots": 2
+            },
+            {
+                "name": "nigeria",
+                "nbSlots": 6,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "south africa",
+                "nbSlots": 5,
+                "hasAirport": true,
+                "isStartCountry": true
+            },
+            {
+                "name": "kenya",
+                "nbSlots": 5,
+                "hasHeatResistance": true
+            }
+        ]
+    },
+    {
+        "continentName": "oceania",
+        "countries": [
+            {
+                "name": "new zealand",
+                "nbSlots": 3,
+                "hasAirport": true
+            },
+            {
+                "name": "new guinea",
+                "nbSlots": 3
+            },
+            {
+                "name": "philippines",
+                "nbSlots": 5,
+                "hasPort": true
+            },
+            {
+                "name": "australia",
+                "nbSlots": 3,
+                "hasAirport": true,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "indonesia",
+                "nbSlots": 7,
+                "hasPort": true
+            }
+        ]
+    },
+    {
+        "continentName": "south_america",
+        "countries": [
+            {
+                "name": "argentina",
+                "nbSlots": 4,
+                "hasPort": true,
+                "isStartCountry": true
+            },
+            {
+                "name": "chile",
+                "nbSlots": 4,
+                "hasAirport": true,
+                "hasColdResistance": true
+            },
+            {
+                "name": "venezuela",
+                "nbSlots": 4
+            },
+            {
+                "name": "colombia",
+                "nbSlots": 4,
+                "hasAirport": true
+            },
+            {
+                "name": "peru",
+                "nbSlots": 3,
+                "hasAirport": true
+            },
+            {
+                "name": "brazil",
+                "nbSlots": 7,
+                "hasAirport": true,
+                "hasPort": true,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "bolivia",
+                "nbSlots": 3
+            }
+        ]
+    },
+    {
+        "continentName": "north_america",
+        "countries": [
+            {
+                "name": "mexico",
+                "nbSlots": 6,
+                "hasPort": true,
+                "hasHeatResistance": true
+            },
+            {
+                "name": "usa",
+                "nbSlots": 7,
+                "hasAirport": true,
+                "hasPort": true,
+                "isStartCountry": true
+            },
+            {
+                "name": "cuba",
+                "nbSlots": 3,
+                "hasAirport": true
+            },
+            {
+                "name": "canada",
+                "nbSlots": 3,
+                "hasAirport": true,
+                "hasColdResistance": true
+            },
+            {
+                "name": "greeland",
+                "nbSlots": 2,
+                "hasColdResistance": true
+            },
+            {
+                "name": "panama",
+                "nbSlots": 2,
+                "hasPort": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,125 @@
+[{
+        "name": "ABSORB",
+        "description": "Si un autre joueur échoue dans I’Extermination d’un Pays que vous avez infecté, remplacer 1 de ses marqueurs de ce Pays par un des vôtres. (En ignorant le Climat)"
+    },
+    {
+        "name": "BOMB INFECTED CITIES",
+        "description": "À la fin de votre tour, si vous avez Exterminé un Pays, choisissez en un autre. Retirez—y 3 Marqueurs."
+    },
+    {
+        "name": "BIRD MIGRATION",
+        "description": "Quand un autre joueur place une carte Pays sur le plateau, placez-y 1 de vos Marqueurs (En ignorant le Climat et la Connexion)"
+    },
+    {
+        "name": "CORPSE TRANSMISSION",
+        "description": "A la fin de votre tour, si vous avez Exterminé un Pays, choisissez 1 Pays Connecté à celui que vous avez exterminé. Placez-y 2 de vos Marqueurs. (En ignorant le Climat)"
+    },
+    {
+        "name": "CROWD FUNDED SOAP",
+        "description": "Au début de votre tour, choisissez 1 Pays que vous avez infecté. Retirez-y 2 Marqueurs."
+    },
+    {
+        "name": "CDC ALERT",
+        "description": "Si un autre joueur essaye de placez un Marqueur dans un Pays, annuler son placement. Personne ne peut plus placer de marqueurs dans ce Pays jusqu‘à votre prochain tour."
+    },
+    {
+        "name": "DNA FLOW",
+        "description": "Au début de votre tour, marquez +4 point d'ADN."
+    },
+    {
+        "name": "DIVINE INTERVENTION",
+        "description": "Au début de votre tour, choisissezjusqu'à 2 Pays que vous avez infectés. Retirez 1 Marqueurs de chacun de ces Pays."
+    },
+    {
+        "name": "[EXECUTE INFECTED",
+            "description": "A la fin de votre tour, si vous avez Exterminé un Pays, choisissez jusqu'à 4 Pays. Retirez 1 Marqueurs de chacun de ces Pays."
+    },
+    {
+        "name": "EMERGENCY CARE",
+        "description": "Si un autre joueur obtient une réussite sur le Dé de la Mort, annule: l'Extermination de ce Pays et retirez—y 1 Marqueur de ce joueur."
+    },
+    {
+        "name": "GENETIC SURGE",
+        "description": "À la ﬁn de votre tour, piochez 4 nouvelles cartes Trait."
+    },
+    {
+        "name": "GOVERNMENT COLLAPSE",
+        "description": "À la fin de votre tour, si vous avez Exterminé un Pays, choisissez en un autre que vous avez infecté. Placez-y jusqu'à 3 Marqueurs. (En ignorant le Climat)"
+    },
+    {
+        "name": "HERE ON BUSINESS",
+        "description": "Au début de votre tour, choisissez 1 Pays. Déplacez 1 de vos Marqueurs de ce Pays vers un autre Pays. (En ignorant le Climat et la Connexion)"
+    },
+    {
+        "name": "IMMUNE REACTION",
+        "description": "Au début de votre tour, choisissez 1 Pays que vous avez infecté. Retirez-y jusqu'à 2 Marqueurs."
+    },
+    {
+        "name": "INFECTED BOARD GAME",
+        "description": "Au début de votre tour, choisissez 1 Pays dont vous êtes résistant au Climat et que vous avez infecté. Placez-y jusqu'à 2 Marqueurs."
+    },
+    {
+        "name": "INTERNET SHUTDOWN",
+        "description": "Au début de votre tour, choisissez 2 Pays dont vous êtes résistant au Climat et que vous avez infectés. Placez 1 Marqueur dans chacun de ces Pays."
+    },
+    {
+        "name": "INFECTED REFUGEES",
+        "description": "A la fin de votre tour, si vous avez Exterminé un Pays, choisissez 1 autre Pays. Déplacezjusqu'à 3 Marqueurs de ce Pays vers n'importe quel autre Pays. (En ignorant le Climat et la Connexion)"
+    },
+    {
+        "name": "LETHAL BOOST",
+        "description": "Avant de lancez le Dé de la Mort ajoutez +3 à votre total de Mortalité, uniquement pour se lancer. (Vous devez l‘annoncer à l‘avance)"
+    },
+    {
+        "name": "LETHAL RELAPSE",
+        "description": "Si vous avez échoué dans I‘Extermination d'un Pays, relancer le Dé de la Mort pour ce Pays. Ajoutez + 1 à votre Mortalité, uniquement pour se lancer."
+    },
+    {
+        "name": "NEUTRALISE",
+        "description": "Si n'importe quel joueur essaye dejouer une carte Evénement, annuler son action et défausser-là."
+    },
+    {
+        "name": "NEW TRADE ROUTE ,",
+        "description": "Au début de votre tour, Echangez 1 Marqueur de n'importe quel Pays avec 1 Marqueur de n'importe quel autre pays. (En ignorant le Climat et la Connexion)"
+    },
+    {
+        "name": "NUCLEAR STRIKE",
+        "description": "À la fin de votre tour, si vous avez Exterminé un Pays, choisissez un seul autre Pays. Au début de votre prochain tour, si ce Pays est toujours en jeu, immédiatement défaussez-le. Les Marqueurs sont retournés à leurs propriétaires, mais aucun point d‘ADN n‘est accordé."
+    },
+    {
+        "name": "OLYMPICS",
+        "description": "Au début de votre tour, choisissez 1 Pays. Déplacez 1 Marqueur de chaque joueur de ce pays. S’il n’y a pas assez d’emplacement disponible vous permettant de déplacer tous les Marqueurs, vous choisissez lesquels vous déplacez. (En ignorant le Climat et la Connexion)"
+    },
+    {
+        "name": "OPPORTUNISTIC BREAKDOWN ,",
+        "description": "À la fin de votre tour, retirez une carte Trait de votre plateau Evolution, ajoutez son coût en ADN à votre score d'ADN et piochez 2 nouvelles cartes Trait."
+    },
+    {
+        "name": "PILGRIMAGE",
+        "description": "Au début de votre tour, choisissez un Pays au Climat Neutre. Déplacez-y 2 Marqueurs provenant de n'importe où sur le plateau. (En ignorant Ia Connexion)"
+    },
+    {
+        "name": "?ANDEMIC ALERT",
+        "description": "A la fin de votre tour, choisissez un Continent. Plus personne ne peut y placer de Marqueurjusqu'à votre prochain tour."
+    },
+    {
+        "name": "RIOTING",
+        "description": "A la fin de votre tour, choisissez 1 Pays dont vous êtes résistant au Climat et que vous avez infecté. Placez-y jusqu'à 2 Marqueurs."
+    },
+    {
+        "name": "SOAP SHORTAGE",
+        "description": "Au début de votre tour, choisissez 1 Pays dont vous êtes résistant au Climat et que vous avez infecté. Placez-y jusqu'à 2 Marqueurs."
+    },
+    {
+        "name": "SUMMER VACATION",
+        "description": "Au début de votre tour, choisissez 1 Pays Chaud auquel vous êtes connecté. Placez-yjusqu‘à 2 Marqueurs. (En ignorant le Climat)"
+    },
+    {
+        "name": "TEMPORARY MUTATION '",
+        "description": "Au début de votre tour, faite Evaluer temporairement une carte Trait sans en payer le coût en ADN et sans utiliser d’espace sur votre plateau. Défaussez cette carte à la ﬁn de votre tour."
+    },
+    {
+        "name": "WINTER VACATION",
+        "description": "Au début de votre tour, choisissez 1 Pays Froid auquel vous êtes connecté. Placez-y jusqu‘à 2 Marqueurs. (En ignorant le Climat)"
+    }
+]

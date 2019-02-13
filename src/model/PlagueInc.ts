@@ -1,10 +1,28 @@
 import { Continent } from "./Continent";
 
+export enum ContinentName {
+    NorthAmerica = 'nort_america',
+    SouthAmerica = 'south_america',
+    Europa = 'europa',
+    Asia = 'asia',
+    Africa = 'africa',
+    Oceania = 'oceania'
+}
+
 export const DEFAULT_CONTINENTS = [
-    new Continent('north_america', 3),
-    new Continent('south_america', 4),
-    new Continent('europa', 5),
-    new Continent('asia', 5),
-    new Continent('africa', 5),
-    new Continent('oceania', 3)
+    new Continent(ContinentName.NorthAmerica, 3),
+    new Continent(ContinentName.SouthAmerica, 4),
+    new Continent(ContinentName.Europa, 5),
+    new Continent(ContinentName.Asia, 5),
+    new Continent(ContinentName.Africa, 5),
+    new Continent(ContinentName.Oceania, 3)
 ]
+
+export enum TraitType {
+    HeatResistance = 0,
+    ColdResistance = 1,
+    Airbone = 2,
+    Waterbone = 3,
+    Infectivity = 4,
+    Lethality = 5
+}

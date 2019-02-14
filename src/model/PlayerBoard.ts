@@ -22,36 +22,40 @@ export class PlayerBoard {
         return this.slots.filter(s => s && s instanceof TraitCard) as TraitCard[]
     }
 
+    hasTrait(type: TraitType){
+        return this.getTraitSlots().findIndex(
+            tc => tc.traits.findIndex(t => t === type) !== -1 
+        ) !== -1
+    }
+
     hasAirborne(){
-        return false
+        return this.hasTrait(TraitType.Airbone)
     }
     hasWaterbone(){
-        return false 
+        return this.hasTrait(TraitType.Waterbone)
     }
     hasColdResistance(){
-        return false 
+        return this.hasTrait(TraitType.ColdResistance)
     }
     hasHeatResistance(){
-        return false
+        return this.hasTrait(TraitType.HeatResistance)
+    }
+
+    getCountOfTrait(type: TraitType, initialCount: number){
+        const countOfTraitCard = this.getTraitSlots().reduce(
+            (sum: number, tc) => {
+                return sum + tc.traits.reduce( (nb, trait) => trait === type ? nb + 1 : nb, 0)
+            },
+            0
+        )
+        return countOfTraitCard + initialCount
     }
 
     getLethalityCount(){
-        const lethalityFromTraitCards = this.getTraitSlots().reduce(
-            (sum: number, tc) => {
-                return sum + tc.traits.reduce( (nb, trait) => trait === TraitType.Lethality ? nb + 1 : nb, 0)
-            },
-            0
-        )
-        return lethalityFromTraitCards + this.initialLethality
+        return this.getCountOfTrait(TraitType.Lethality, this.initialLethality)
     }
     getInfectivityCount(){
-        const infectivityFromTraitCards = this.getTraitSlots().reduce(
-            (sum, tc: TraitCard) => {
-                return sum + tc.traits.reduce( (nb, trait) => trait === TraitType.Infectivity ? nb + 1 : nb, 0)                
-            },
-            0
-        )
-        return infectivityFromTraitCards + this.initialInfectivity
+        return this.getCountOfTrait(TraitType.Infectivity, this.initialInfectivity)
     }
     
 }

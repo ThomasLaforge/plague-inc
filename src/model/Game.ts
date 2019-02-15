@@ -2,6 +2,7 @@ import { Player } from "./Player";
 import { ContinentName, GamePhase } from "./PlagueInc";
 import { Country } from "./Country";
 import { TraitCard } from "./TraitCard";
+import * as _ from 'lodash'
 
 export class Game {
 
@@ -10,9 +11,11 @@ export class Game {
     public currentPhase: GamePhase
 
     constructor(players: Player[], nbPlayerTurn = 0, currentPhase = GamePhase.DNA){
-        this.players = players
         this.nbPlayerTurn = nbPlayerTurn
         this.currentPhase = currentPhase
+        this.players = players
+        // this.players = _.shuffle(this.players)
+        this.players.forEach( (p, i) => p.dnaAmount = i)
     }
 
     getMyDNA(p: Player){
